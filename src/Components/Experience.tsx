@@ -13,15 +13,15 @@ const TimelineItem = (items: any) => {
             <div className="flex gap-2 items-center">
                 <img className="rounded-lg w-16 md-mx:w-14" src={`${item.company}.png`} alt="Company" />
                 <div className="flex flex-col">
-                    <div className="text-white text-2xl font-semibold sm-mx:text-xl xs-mx:text-lg xsm-mx:text-base">{item.role}</div>
-                    <div className="text-lg font-semibold text-textColor md-mx:text-base sm-mx:text-sm xs-mx:text-xs">{item.company} &#x2022; {item.date}</div>
+                    <div className="text-white text-[2.4rem] font-semibold sm-mx:text-[2rem] xs-mx:text-[1.8rem] xsm-mx:text-base">{item.role}</div>
+                    <div className="text-[1.8rem] font-semibold text-textColor md-mx:text-base sm-mx:text-[1.4rem] xs-mx:text-[1.2rem]">{item.company} &#x2022; {item.date}</div>
                 </div>
             </div>
-            <div className="text-textColor leading-6 text-justify md-mx:text-sm xs-mx:text-xs ">
+            <div className="text-textColor leading-6 text-justify md-mx:text-[1.4rem] xs-mx:text-[1.2rem] ">
                 {item.desc}
             </div>
 
-            <div className="text-lg font-medium text-textColor md-mx:text-base sm-mx:text-sm xs-mx:text-xs flex gap-1"><div className="font-semibold text-white">Skills:</div>
+            <div className="text-[1.8rem] font-medium text-textColor md-mx:text-base sm-mx:text-[1.4rem] xs-mx:text-[1.2rem] flex gap-1"><div className="font-semibold text-white">Skills:</div>
                 <div className="flex gap-1 flex-wrap">
                     {
                         item.skills.map((skill: any, index: number) => <div key={index}> &#x2022; {skill} </div>)
@@ -42,7 +42,7 @@ const Experience = () => {
         md:30,
     })
     return <div className="px-16 mx-20 md-mx:px-6 sm-mx:px-2 lg-mx:mx-0 my-10 mb-28 font-mono" id="Experience">
-        <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-2xl  mb-10 font-bold text-center text-white"><span className="text-primaryColor">04.&nbsp;</span>Experience</h1>
+        <h1 className="text-4xl sm-mx:text-3xl xs-mx:text-[2.4rem]  mb-10 font-bold text-center text-white"><span className="text-primaryColor">04.&nbsp;</span>Experience</h1>
         <Timeline color="#64FFDA" active={5} bulletSize={dot} lineWidth={2}>
             {
                 TimelineItem(ExperienceInfo)

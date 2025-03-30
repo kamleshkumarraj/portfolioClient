@@ -2,14 +2,19 @@ import { useEffect, useState } from "react";
 import About from "./About";
 import Contact from "./Contact";
 import Experience from "./Experience";
-import Footer from "./Footer";
 import Header from "./Header"
 import { Loader } from "./Loader";
 import Mail from "./Mail";
-import Projects from "./Projects";
 import Skills from "./Skills";
 import Social from "./Social";
 import { Toaster } from "react-hot-toast";
+import BioData from "./SelfAbout";
+import Projects from "./Projects";
+import Response from "./Response";
+import Service from "./Service";
+import Testomonial from "./Testomonial";
+import Freelancer from "./Freelancer";
+import Footer from "./Footer";
 
 const HomePage = () => {
     const [loading, setLoading] = useState(true);
@@ -23,11 +28,16 @@ const HomePage = () => {
     <Toaster/>
         <Header />
         <About />
+        <BioData />
         <Projects />
+        <Response />
         <Skills />
         <Experience />
+        <Service />
+        <Testomonial />
+        <Freelancer />
         <Contact />
-        <Footer/>
+        <Footer />
         <Mail />
         <Social />
         </>:

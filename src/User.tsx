@@ -1,7 +1,7 @@
 import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandYoutube } from "@tabler/icons-react";
 const Info = {
-    name: "Chandrabhan Maurya",
-    stack: ["Software Engineer", "Full Stack Developer", "Competitive Programmer", "Freelancer", "Open Source Contributor"],
+    name: "Kamlesh Kumar",
+    stack: ["Software Engineer", "Full Stack Developer", "DevOps Engineer", "Freelancer", "Competitive Programmer"],
     bio: "I'm a passionate software engineer specialized in crafting efficient and scalable solutions, deliver top-notch web applications, and provide freelance services that exceed client expectations. Let's connect and create something amazing together!"
 }
 
@@ -22,7 +22,7 @@ const ProjectInfo = [
         desc: "Facebook Clone is a full-stack web application that replicates the core features of Facebook, including user authentication, posting, and commenting. The front end is built with React, TailwinCSS, Tabler-Icons, Mantine and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, post updates, and comment on posts. The app features real-time updates, so users can see new comments as they are posted. Facebook Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
         image: "Facebook.png",
         live: false,
-        technologies: ["React", "Springboot", "MongoDB", "Tailwind", "Tabler-Icons", "Firebase"],
+        technologies: ["React", "MongoDB", "Tailwind", "Tabler-Icons", "Firebase"],
         link: "https://github.com/Code-Mars/Facebook-Clone",
         github: "https://github.com/Code-Mars/Facebook-Clone"
     },

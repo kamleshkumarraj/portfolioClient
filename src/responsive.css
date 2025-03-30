@@ -1,0 +1,615 @@
+@media (width<=1200px) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .bio-data-section {
+        & .bio-data {
+            padding-inline: 2rem;
+
+            & .bio-image-section {
+                width: 95%;
+            }
+
+            & .bio-data-details {
+                & p {
+                    margin-top: 2rem;
+                }
+
+                & .bio-graph {
+                    padding-block: 1.5rem;
+
+                    & .common-bio {
+
+                        & .range-show {
+                            margin-top: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .project-section {
+        & .project-body {
+            & .comment-box {
+                &::before {
+                    height: 27.4vh;
+                }
+            }
+        }
+    }
+
+    .road-map-box .box:nth-child(even) .image-box>h1::before {
+        height: 44vh;
+    }
+
+    .road-map-box .box:nth-child(even) .image-box>h1::before {
+        height: 44vh;
+    }
+
+    .road-map-box .box:nth-last-child(1) .image-box>h1:before {
+        height: 28vh;
+    }
+
+}
+
+
+@media (width<=1132px) {
+    .road-map-box .box:nth-child(odd) .image-box>h1::before {
+        height: 42vh;
+    }
+
+    .road-map-box .box:nth-last-child(1) .image-box>h1:before {
+        height: 28vh;
+    }
+
+    .project-section {
+        & .project-body {
+            & .comment-box {
+                &::before {
+                    height: 24vh;
+                    top: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (width<=1041px) {
+    .road-map-box .box:nth-child(odd) .image-box>h1::before {
+        height: 48vh;
+    }
+
+    .road-map-box .box:nth-child(even) .image-box>h1::before {
+        height: 48vh;
+    }
+
+    .road-map-box .box:nth-last-child(1) .image-box>h1:before {
+        height: 30vh;
+    }
+
+    .project-section {
+        & .project-body {
+            & .comment-box {
+                &::before {
+                    height: 25vh;
+                    top: 100%;
+                }
+            }
+        }
+
+
+    }
+}
+
+
+@media (width<=1024px) {
+    html {
+        font-size: 53.125%;
+    }
+
+    .road-map-box .box:nth-child(odd) .image-box>h1::before {
+        height: 40vh;
+    }
+
+    .road-map-box .box:nth-child(even) .image-box>h1::before {
+        height: 40vh;
+    }
+
+    .road-map-box .box:nth-last-child(1) .image-box>h1:before {
+        height: 26vh;
+    }
+
+    .project-section {
+        & .project-body {
+            & .comment-box {
+                &::before {
+                    height: 22vh;
+                    top: 100%;
+                }
+            }
+        }
+
+
+    }
+    .footer-section{
+    
+       & .footer-body{
+           
+            padding-top: 25rem;
+            /* margin-top: 10rem; */
+       }
+    }
+
+}
+
+@media (width<=984px) {
+
+    .road-map-box .box:nth-child(odd) .image-box>h1::before {
+        height: 45vh;
+    }
+
+    .road-map-box .box:nth-child(even) .image-box>h1::before {
+        height: 45vh;
+    }
+
+    .road-map-box .box:nth-last-child(1) .image-box>h1:before {
+        height: 28.6vh;
+    }
+
+    .project-section {
+        & .project-body {
+            & .comment-box {
+                &::before {
+                    height: 24vh;
+                    top: 100%;
+                }
+            }
+        }
+
+
+    }
+
+}
+
+@media (width<=945px) {
+    .road-map-box .box:nth-last-child(2) .image-box>h1:before {
+        height: 48vh;
+    }
+
+    .road-map-box .box:nth-last-child(3) .image-box>h1:before {
+        height: 48vh;
+    }
+
+    .hero-section {
+        & .section {
+            & .image {
+                & .hero-image {
+                    width: 42rem;
+                    height: 42rem;
+
+
+                    & img {
+                        width: 34rem;
+                        height: 34rem;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .education-box{
+       left: 48%;
+    }
+    .footer-section{
+    
+       & .footer-body{
+            column-gap: 4rem;
+       }
+    }
+
+}
+
+@media (width<=874px) {
+    .road-map-box .box:nth-child(odd) .image-box>h1::before {
+        height: 49vh;
+    }
+
+    .road-map-box .box:nth-child(even) .image-box>h1::before {
+        height: 51vh;
+    }
+
+    .road-map-box .box:nth-last-child(1) .image-box>h1:before {
+        height: 29.4vh;
+    }
+
+    .project-section {
+        & .project-body {
+            & .comment-box {
+                &::before {
+                    height: 26vh;
+                    top: 100%;
+                }
+            }
+        }
+    }
+
+    .grid-three-cols {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .education-box{
+        min-width: 80rem; 
+       left: 48%;
+    }
+    & .footer-body{
+        column-gap: 2rem;
+   }
+
+
+}
+
+@media (width<=768px) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .grid-two--cols {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-section {
+        & .section {
+            & .image {
+                order: -1;
+                padding-top: 4rem;
+
+
+                & .hero-image {
+                    width: 32rem;
+                    height: 32rem;
+
+                    & img {
+                        width: 30rem;
+                        height: 30rem;
+                        top: 55%;
+                    }
+
+                }
+
+            }
+
+            & .hero-details {
+                animation: unset;
+
+                & .hero-para {
+                    padding-right: 5rem;
+                }
+            }
+        }
+    }
+
+    .header {
+        & .nav-bar {
+            & .bar {
+                display: block;
+                display: grid;
+                place-items: center;
+                transition: all 2s linear;
+                & i{
+                    transition: all 2s linear;
+                }
+            }
+
+            & .nav-container {
+                display: none;
+            }
+        }
+    }
+
+    .bio-data-section {
+        padding-inline: 2rem;
+
+
+        & .bio-data {
+            padding-block: 2rem;
+            padding-inline: 2rem;
+            justify-items: center;
+
+            & .bio-image-section {
+                width: 95%;
+                min-height: 100vh;
+            }
+
+
+        }
+
+    }
+
+    .road-map-box .box .image-box {
+        width: 90%;
+        overflow: hidden;
+
+    }
+
+    .road-map-box .box {
+        grid-template-columns: 1fr;
+        gap: 2%;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .road-map-box .box:nth-child(even) .image-box {
+        margin-left: unset;
+        order: -1;
+    }
+
+    .road-map-box .box .text-box {
+        padding: unset;
+        padding-block: 1rem;
+        padding-inline: 4rem;
+    }
+
+    .road-map-box {
+        gap: 8rem;
+    }
+
+    .project-section {
+        & .project-body {
+            & .comment-box {
+                &::before {
+                    height: 0vh;
+                }
+            }
+        }
+    }
+
+    .response{
+        & .num-box{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 2rem;
+        }
+    
+     }
+
+     .footer-section{
+        
+    
+       & .footer-body{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 0 auto;
+            gap: 0;
+            
+    
+            & .box{
+                max-width: 50rem;
+                color: white;
+                padding-inline: 2rem;
+                & a{
+                    font-size: 1.4rem;
+                }
+            }
+            & .question{
+                max-width: 50rem;
+                
+            }
+            & .icon-box{ 
+                grid-column: 1/3;
+                display: flex;
+                justify-content: center;
+            }
+            & .copy-right{ 
+                grid-column: 1/3;
+            }
+    
+        }
+    }
+    .box h3{
+        
+        padding-block: unset;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .education-box{
+        min-width: 60rem; 
+       left: 48%;
+    }
+    
+
+}
+
+@media (width<=600px) {
+    .education-box{
+        min-width: unset;
+        /* max-width: 80rem; */
+        min-width: 40rem;
+        grid-template-columns: 1fr;
+        min-height: 50vh;
+        top: -20%;
+        left: 45%;
+    }
+    .header .nav-page{
+        width: 75%;
+        min-height: 100vh;
+    }
+}
+
+@media (width<=480px) {
+    .header{
+        & .nav-bar{
+            & .logo{
+                & .code-logo{
+                    max-width: 6rem;
+                    top: -.9rem;
+                }
+    
+                & .name-logo{
+                    max-width: 10rem;
+                }
+            }
+      }
+    }
+    .header .nav-page{
+        width: 100%;
+        min-height: 100vh;
+    }
+    .hero-section {
+        & .section {
+            & .hero-details {
+                & .hero-para {
+                    padding-right: 2rem;
+                }
+            }
+        }
+    }
+    .bio-data-section {
+        padding-inline: 1rem;
+
+
+        & .bio-data {
+            padding-block: 2rem;
+            padding-inline: 1rem;
+            justify-items: center;
+
+            & .bio-image-section {
+                width: 95%;
+                min-height: 50vh;
+            }
+
+
+        }
+
+    }
+    
+    .project-section {
+        padding-inline: 0;
+        & .project-body {
+            & .comment-box {
+                &::before {
+                    height: 0vh;
+                }
+            }
+        }
+    }
+    .road-map-box .box .text-box {
+        padding-block: 0rem;
+    }
+    .service-section{
+        padding-inline: unset;
+        & .service-body{
+            & .heading-box{
+                & h1{
+    
+                    &::before{
+                        width: 50%;
+                    }
+                }
+            }
+    }
+     }
+     .testonomial-section{
+        padding-inline: 0;
+
+        & .testonomial-body{
+            /* max-width : 120rem;
+            height : 100%;
+            margin: 0 auto;
+            padding-inline: 2rem; */
+    
+            & .heading-section{
+                /* padding-top: 8rem; */
+    
+                & h1::before{
+                    width: 45%;
+                    /* top: 50%; */
+                }
+                & h1::after{
+                    top: 100%;
+                    transform: translateY(40%);
+                }
+            }
+        }
+
+
+
+
+
+
+
+     }
+     .contact-section{
+        padding-inline: 0rem;
+        padding-bottom: 25rem;
+        
+    }
+    .contact-section .contact-body .heading-section{
+        padding-block: 0rem;
+        & .common-heading::before{
+            width: 35%;
+        }
+    }
+    .contact-section .contact-body .main-form .box-1{ 
+        flex-direction: column;
+        gap: 3rem;
+        & input{
+            width: 95%;
+        }
+    }
+    .education-box{
+        min-width: 35rem; 
+        left: 46%;
+        top: -24%;
+        & .text-section{
+            h1::before{
+                width: 45%;
+            }
+            h1::after{
+                transform: translateY(45%);
+            }
+        }
+    }
+    .footer-section{
+        & .footer-body{
+             display: grid;
+             grid-template-columns: 1fr;
+             margin: 0 auto;
+             gap: 0;
+             padding-top: 27rem;
+             & .box{
+                 /* min-width:100%; */
+                 color: white;
+                 padding-inline: 2rem;
+                 grid-column: 1/3;
+                 /* padding-left: 5rem; */
+                 & a{
+                     font-size: 1.4rem;
+                 }
+             }
+             & .question{
+                 max-width: 100%rem;
+                 
+             }
+             & .icon-box{ 
+              
+             }
+             & .copy-right{ 
+               
+             }
+     
+         }
+     }
+  
+
+
+
+}
+
+/*Media for all existing devices. */
+/* For Mobile devices: 320px-480px
+For Tablets or iPad: 480px - 768px
+For Laptop or small-size screen: 768px -1024px
+For Desktop or large-size screen: 1024px -1200px
+For Extra-large size device: 1200px and more */
