@@ -68,20 +68,20 @@ const ProjectInfo = [
 const SkillInfo = [
     {
         title: "Frontend",
-        skills: ["HTML", "CSS", "SASS", "JavaScript", "React JS", "Angular", "Redux", "Tailwind CSS", "GSAP", "Material UI", "Bootstrap"
+        skills: ["HTML", "CSS", "Tailwind CSS", "SASS", "Bootstrap", "JavaScript", "React JS", "Angular", "Redux", "GSAP", "Material UI",
         ]
     },
     {
         title: "Backend",
-        skills: ["Springboot", "Node JS", "Express JS", "MySQL", "MongoDB", "Firebase", "PostgresSQL"]
+        skills: [ "Node JS", "Express JS", "MongoDB",  "MySQL", "Rest API", "GraphQL", "Redish", "TypeScript"]
     },
     {
         title: "Languages",
-        skills: ["C", "C++", "Java", "JavaScript", "TypeScript"]
+        skills: ["C", "C++", "Java", "JavaScript", "Python"]
     },
     {
         title: "Tools",
-        skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass", "Spring Tool Suite"]
+        skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass", "Window", "Linux"]
     }
 ]
 const socialLinks = [

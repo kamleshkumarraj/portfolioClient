@@ -601,6 +601,14 @@ a{
     }
  } 
 
+ .road-map-box .box .image-box .img-6{
+    &::before{
+        content: "Project-5 ";
+        background-color: #04bff377;
+        
+    }
+ } 
+
  .road-map-box .box:nth-child(odd) .image-box > h1{
     position: absolute;
     width: 80%;
@@ -622,14 +630,11 @@ a{
  .road-map-box .box:nth-child(odd) .image-box > h1::before{
     position: absolute;
     content: "";
-    height: 63.5vh;
+    height: 50vh;
     border: 1px solid #CA448C;
     right: -2%;
     transform: translateY(1.4%);
     
- } 
- .road-map-box .box:nth-last-child(1) .image-box > h1:before{
-    height: 29.8vh; 
  } 
  
  @media (width<=1400px) {
@@ -725,7 +730,13 @@ a{
     left: -1.5%;
     transform: translateY(1.8%);
     
- } 
+ }
+ 
+ .road-map-box .box:nth-last-child(1) .image-box > h1::before{
+    height: 30.5vh;
+    
+ }
+ 
  .road-map-box .box:nth-child(1) .image-box > h1{
     border: 1px solid rgb(240, 6, 201);
  } 

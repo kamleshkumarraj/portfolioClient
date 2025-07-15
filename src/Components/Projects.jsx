@@ -1,5 +1,3 @@
-import { ProjectInfo } from "../User";
-import ProjectCard from "./ProjectCard";
 
 const Projects=()=>{
     return (
@@ -20,7 +18,7 @@ const Projects=()=>{
             <div className="box">
             <a className="image-box" href="https://kamleshecommercecenter.netlify.app/" target="_blank">
                     <div className="img-box img-1">
-                    <img src="https://i0.wp.com/themes.svn.wordpress.org/ecommerce-zone/0.6.2/screenshot.png" alt="Image"/>
+                    <img src="https://res.cloudinary.com/photouploading/image/upload/v1752568327/Untitled_design__4_-removebg-preview_yzeyxb.png" alt="Image"/>
                 </div>
                     <h1></h1>
             </a>
@@ -65,14 +63,14 @@ const Projects=()=>{
                     
                     <h1></h1>
                     <div className="img-box img-2">
-                    <img src="https://media.istockphoto.com/id/1365264688/vector/weather-forecast-meteorology-widget-app-interface.jpg?s=612x612&w=0&k=20&c=OSQHTnpLnK_p5jpyJ3i1hU7CWPSDUV_9JV69WqANgYk=" alt="Image"/>
+                    <img src="https://res.cloudinary.com/photouploading/image/upload/v1752568327/Untitled_design-removebg-preview_ofm2eu.png" alt="Image"/>
                 </div>
             </div>
             </div>
             <div className="box">
                 <div className="image-box">
                     <div className="img-box img-3">
-                        <img src="./Assets/Images/gaana.jpg" alt="Image"/>
+                        <img src="https://res.cloudinary.com/photouploading/image/upload/v1752568491/Untitled_design__1_-removebg-preview_odyepe.png" alt="Image"/>
                     </div>
                     
                     <h1></h1>
@@ -117,7 +115,7 @@ const Projects=()=>{
                 <div className="image-box">
                     <h1></h1>
                     <div className="img-box img-4">
-                        <img src="https://media.dev.to/cdn-cgi/image/width=1280,height=720,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd2db0bvcss75exc5es3d.png" alt="Image" />
+                        <img src="https://res.cloudinary.com/photouploading/image/upload/v1752568327/Untitled_design__3_-removebg-preview_g5cdoj.png" alt="Image" />
                     </div>
 
                 </div>
@@ -126,7 +124,7 @@ const Projects=()=>{
             <div className="box">
                 <div className="image-box">
                    <div className="img-box img-5">
-                    <img src="https://miro.medium.com/v2/resize:fit:1358/1*_EAyhSvG9NmRRoZjws0tMw.png" alt="Image" />
+                    <img src="https://res.cloudinary.com/photouploading/image/upload/v1752568325/Untitled_design__2_-removebg-preview_bdpnh2.png" alt="Image" />
                    </div>
                     <h1></h1>
                 </div>
@@ -149,6 +147,34 @@ const Projects=()=>{
                 </div>
             </div>
 
+            <div className="box">
+
+                <div className="text-box">
+                    <h1>Netflix Video Application</h1>
+                    <p><span>(Palying Videos)</span></p>
+                    <p>HariGurus is a one-stop-shop for all Hindu religious, customs and traditional requirements.
+                        Built the complete site from scratch.</p>
+                    <div className="button-box">
+                        <div className="btn">#react.js</div>
+                        <div className="btn">#express.js</div>
+                        <div className="btn">#node.js</div>
+                        <div className="btn">#swiper.js</div>
+                        <div className="btn">#javascript</div>
+                        <div className="btn">#mongodb</div>
+                        <div className="btn">#mongoose</div>
+                        <div className="btn">#HTML</div>
+                        <div className="btn">#CSS</div>
+                    </div>
+                </div>
+                <div className="image-box">
+                    <h1></h1>
+                    <div className="img-box img-6">
+                        <img src="https://res.cloudinary.com/photouploading/image/upload/v1752568050/Untitled_design__5_-removebg-preview_jhj1s7.png" alt="Image" />
+                    </div>
+
+                </div>
+            </div>
+             
         </div>
     </section>
     )
